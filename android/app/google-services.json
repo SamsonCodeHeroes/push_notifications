@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1096617055321",
+    "firebase_url": "https://spike-511ff.firebaseio.com",
+    "project_id": "spike-511ff",
+    "storage_bucket": "spike-511ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096617055321:android:c307c1d8bc7f8557",
+        "android_client_info": {
+          "package_name": "com.example.pushnotifications"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1096617055321-b59jto3t5u53bipolo3hbkhngr0pl94i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFvivRoV00uD2xE0M0dsrQHpf6tQFOtZE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
