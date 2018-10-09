@@ -10,8 +10,9 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: new ThemeData(
         primarySwatch: Colors.blue,
+        backgroundColor: Colors.red
       ),
-      home: new MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }
@@ -46,6 +47,12 @@ class _MyHomePageState extends State<MyHomePage> {
         print(message);
       },
     );
+
+    _firebaseMessaging.requestNotificationPermissions(
+        const IosNotificationSettings(sound: true, badge: true, alert: true));
+    _firebaseMessaging.getToken().then((token){
+      print(token);
+    });
 
     _firebaseMessaging.getToken().then((token) => print(token));
   }
